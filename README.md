@@ -1,1 +1,1 @@
-# SOC Automation Lab
+# SOAR EDR Lab
