@@ -16,4 +16,5 @@ The SOAR EDR Lab aimed to integrate Security Orchestration, Automation, and Resp
 - Windows virtual machine with internet connectivity
 
 ## Steps
-### 1. 
+### 1. Creating a Playbook Workflow
+The objective of the playbook used in the lab was to send a Slack message and an email containing information about the detection that LimaCharlie had generated. Tines then prompted the user to decide whether to isolate the machine. If the user selected yes, LimaCharlie automatically isolated the machine. Refer to Figure 1 for the playbook workflow used in the lab. The diagram was created using Draw.io.
