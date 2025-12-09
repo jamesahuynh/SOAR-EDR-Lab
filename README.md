@@ -5,9 +5,9 @@ The SOAR EDR Lab aimed to integrate Security Orchestration, Automation, and Resp
 
 ## Skills Learned
 - Advanced understanding of Security Orchestration, Automation, and Response (SOAR) and Endpoint Detection and Response (EDR), along with their practical applications
-- Configuring detection rules, monitoring endpoint behavior, and collecting telemetry data using LimaCharlie
-- Creating automated workflows (playbooks) for incident response
-- Using Tines to trigger actions based on EDR alerts
+- Configuration of detection rules, monitoring of endpoint behavior, and collection of telemetry data using LimaCharlie
+- Creation of automated workflows (playbooks) for incident response
+- Use of Tines to trigger actions based on EDR alerts
 - Development of critical thinking and problem-solving skills in cybersecurity
 
 ## Tools Used
