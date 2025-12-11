@@ -13,7 +13,7 @@ The SOAR EDR Lab aimed to integrate Security Orchestration, Automation, and Resp
 ## Tools Used
 - Tines as the Security Orchestration, Automation, and Response (SOAR) platform
 - LimaCharlie as the Endpoint Detection and Response (EDR) solution
-- Windows virtual machine with internet connectivity
+- Windows Server 2022 virtual machine with internet connectivity
 
 ## Steps
 ### 1. Creating a Playbook Workflow
@@ -23,4 +23,5 @@ The objective of the playbook used in the lab was to send a Slack message and an
 
 Figure 1. Lab Playbook Workflow
 
-### 2. 
+### 2. Installing and Setting Up LimaCharlie
+After creating an account on [limacharlie.io](https://limacharlie.io/), an organization named 'SOAREDR-Lab' was created. In LimaCharlie, an installation key with the same name (SOAREDR-Lab) was generated. On the Windows Server 2022 virtual machine, the Windows 64-bit sensor was downloaded from LimaCharlie. The sensor key was then copied from LimaCharlie. Once the sensor installer was downloaded to the Windows Server 2022 virtual machine, the sensor was installed using the copied key through PowerShell. 
